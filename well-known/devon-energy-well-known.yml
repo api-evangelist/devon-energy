@@ -1,0 +1,60 @@
+generated: '2026-09-06'
+method: probed
+source: >-
+  Anonymous HTTPS probes of the five canonical /.well-known/ discovery paths against every host
+  this record knows: the registrable domain (devonenergy.com), www, the investor-relations host
+  and the careers host. Devon Energy publishes no API baseURL and no OpenAPI, so there are no
+  additional API or servers[] hosts to probe. The prior record pointed at devon-energy.com, a
+  lapsed domain now parked at HugeDomains (roadmap#250); that host is excluded here.
+note: >-
+  NO DOCUMENT WAS SERVED ON ANY HOST. Every 200 recorded below is a soft-404: the apex
+  devonenergy.com returns its 32KB homepage for any path, careers.devonenergy.com returns the
+  same 7KB SPA shell for every path, and investors.devonenergy.com (a Q4 Inc. investor-relations
+  platform) answers every /.well-known/ path with the 11-byte string "Invalid key". www is the
+  only host that answers honestly, with a real 404 page. No WellKnown or SecurityTxt pointer is
+  emitted in apis.yml, because nothing here is a served document.
+hosts:
+- host: www.devonenergy.com
+  note: Primary corporate site (Azure Front Door). Returns a genuine 404 for all five paths.
+  documents:
+  - {path: /.well-known/security.txt, status: 404, file: null}
+  - {path: /.well-known/openid-configuration, status: 404, file: null}
+  - {path: /.well-known/oauth-authorization-server, status: 404, file: null}
+  - {path: /.well-known/api-catalog, status: 404, file: null}
+  - {path: /.well-known/ai-plugin.json, status: 404, file: null}
+- host: devonenergy.com
+  note: >-
+    Apex. Answers 200 with the 32KB corporate homepage for every path probed — a soft-404, not a
+    document. Content-Type is text/html on all five.
+  documents:
+  - {path: /.well-known/security.txt, status: 200, file: null}
+  - {path: /.well-known/openid-configuration, status: 200, file: null}
+  - {path: /.well-known/oauth-authorization-server, status: 200, file: null}
+  - {path: /.well-known/api-catalog, status: 200, file: null}
+  - {path: /.well-known/ai-plugin.json, status: 200, file: null}
+- host: investors.devonenergy.com
+  note: >-
+    Q4 Inc. investor-relations platform. Every path returns 200 with the 11-byte body
+    "Invalid key" — a platform error string, not a discovery document.
+  documents:
+  - {path: /.well-known/security.txt, status: 200, file: null}
+  - {path: /.well-known/openid-configuration, status: 200, file: null}
+  - {path: /.well-known/oauth-authorization-server, status: 200, file: null}
+  - {path: /.well-known/api-catalog, status: 200, file: null}
+  - {path: /.well-known/ai-plugin.json, status: 200, file: null}
+- host: careers.devonenergy.com
+  note: >-
+    Applicant-tracking SPA. Every path returns 200 with the identical 7,142-byte HTML shell — a
+    catch-all, not a document.
+  documents:
+  - {path: /.well-known/security.txt, status: 200, file: null}
+  - {path: /.well-known/openid-configuration, status: 200, file: null}
+  - {path: /.well-known/oauth-authorization-server, status: 200, file: null}
+  - {path: /.well-known/api-catalog, status: 200, file: null}
+  - {path: /.well-known/ai-plugin.json, status: 200, file: null}
+summary:
+  hosts_probed: 4
+  paths_probed: 20
+  documents_served: 0
+  soft_200s: 15
+  hard_404s: 5

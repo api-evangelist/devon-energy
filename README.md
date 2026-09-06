@@ -64,7 +64,7 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Devon Energy is a Fortune 500 company. This repository captures the APIs, developer tools, and machine-readable API artifacts for Devon Energy.
+Devon Energy Corporation (NYSE: DVN) is a Fortune 500 independent oil and natural gas exploration and production company; on May 7, 2026 it completed an all-stock merger with Coterra Energy, keeping the Devon Energy name and DVN ticker. This repository captures the APIs, developer tools, and machine-readable API artifacts for Devon Energy.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/devon-energy/refs/heads/main/apis.yml)
 
@@ -81,15 +81,28 @@ Devon Energy is a Fortune 500 company. This repository captures the APIs, develo
 ## Timestamps
 
 - **Created:** 2026-03-21
-- **Modified:** 2026-04-28
+- **Modified:** 2026-09-06
 
 ## APIs
 
-No public APIs have been documented yet. Contributions welcome.
+No public APIs. Devon Energy operates no developer program, API, or machine-readable API
+artifacts — established by probe on 2026-09-06, not assumed: no `api.`/`developer.`/`data.`
+subdomain of `devonenergy.com` resolves, every OpenAPI/GraphQL/AsyncAPI path 404s on
+`www.devonenergy.com`, all five canonical `/.well-known/` paths miss on all four Devon hosts, and
+`github.com/devonenergy` publishes zero public repositories. See
+`well-known/devon-energy-well-known.yml` for the probe record and the `x-coverage` block in
+`apis.yml` for the coverage finding.
 
 ## Common Properties
 
-- [Website](https://www.devon-energy.com)
+- [Website](https://www.devonenergy.com)
+- [GitHub Organization](https://github.com/devonenergy)
+- [LinkedIn](https://www.linkedin.com/company/devon-energy)
+- [Blog](https://www.devonenergy.com/news)
+- [Support](https://www.devonenergy.com/about-us/contact-us)
+- [Privacy Policy](https://www.devonenergy.com/privacy-policy)
+- [Domain Security](security/devon-energy-domain-security.yml)
+- [LLMs.txt](llms/devon-energy-llms.txt)
 
 ## Maintainers
 
