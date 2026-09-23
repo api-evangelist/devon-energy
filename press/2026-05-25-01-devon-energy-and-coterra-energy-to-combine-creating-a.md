@@ -1,7 +1,9 @@
 ---
 title: Devon Energy and Coterra Energy to Combine, Creating a ...
 url: https://investors.devonenergy.com/investors/press-releases/press-release-details/2026/Devon-Energy-and-Coterra-Energy-to-Combine-Creating-a-Premier-Shale-Operator/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Devon Energy" press release artificial intelligence'
 position: 1
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Devon Energy Empowers Teams with AI and ChatDVN
 url: https://www.linkedin.com/posts/treylowe_for-devon-energy-ai-in-drilling-comes-down-activity-7417202227309613057-vp1b
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Devon Energy" press release artificial intelligence'
 position: 4
 source: serpapi-google

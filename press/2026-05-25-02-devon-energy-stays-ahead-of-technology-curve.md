@@ -1,7 +1,9 @@
 ---
 title: Devon Energy Stays Ahead Of Technology Curve
 url: https://www.aogr.com/magazine/cover-story/devon-energy-stays-ahead-of-technology-curve
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Devon Energy" press release artificial intelligence'
 position: 2
 source: serpapi-google

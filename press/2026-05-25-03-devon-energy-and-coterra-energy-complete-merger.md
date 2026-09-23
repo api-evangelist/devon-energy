@@ -1,7 +1,9 @@
 ---
 title: Devon Energy and Coterra Energy Complete Merger
 url: https://investors.devonenergy.com/investors/press-releases/press-release-details/2026/Devon-Energy-and-Coterra-Energy-Complete-Merger/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Devon Energy" press release artificial intelligence'
 position: 3
 source: serpapi-google
