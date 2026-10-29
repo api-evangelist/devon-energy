@@ -1,4 +1,4 @@
-# Devon Energy (devon-energy)
+# Devon Energy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,48 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Devon Energy Corporation (NYSE: DVN) is a Fortune 500 independent oil and natural gas exploration and production company; on May 7, 2026 it completed an all-stock merger with Coterra Energy, keeping the Devon Energy name and DVN ticker. This repository captures the APIs, developer tools, and machine-readable API artifacts for Devon Energy.
+Devon Energy Corporation (NYSE: DVN) is an independent oil and natural gas exploration and production company operating across U.S. onshore basins, anchored by a leading position in the economic core of the Delaware Basin. On May 7, 2026 Devon completed an all-stock merger with Coterra Energy, creating a large-cap shale operator with an estimated combined enterprise value of about $58 billion; the combined company retains the Devon Energy name and the DVN ticker, is headquartered in Houston and keeps a significant presence in Oklahoma City. Devon publishes a corporate website, an investor-relations site, sustainability and cybersecurity reporting, and a supplier and interest-owner information section, but operates no public developer program, no API and no machine-readable API artifacts. Owner statements are delivered through EnergyLink and supplier invoicing through Enverus OpenInvoice — both third-party platforms, neither a Devon API.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/devon-energy/refs/heads/main/apis.yml)
+**Areas:** Fortune 500 · Energy · Oil and Gas · Exploration and Production · Natural Gas · Petroleum
 
-## Scope
+## Devon Energy on APIs.io
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Devon Energy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/devon-energy/](https://apis.io/providers/devon-energy/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### Published properties
 
- - Fortune 500
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-09-06
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Devon Energy Domain Security](https://apis.io/security/devon-energy/devon-energy-domain-security/)
 
-No public APIs. Devon Energy operates no developer program, API, or machine-readable API
-artifacts — established by probe on 2026-09-06, not assumed: no `api.`/`developer.`/`data.`
-subdomain of `devonenergy.com` resolves, every OpenAPI/GraphQL/AsyncAPI path 404s on
-`www.devonenergy.com`, all five canonical `/.well-known/` paths miss on all four Devon hosts, and
-`github.com/devonenergy` publishes zero public repositories. See
-`well-known/devon-energy-well-known.yml` for the probe record and the `x-coverage` block in
-`apis.yml` for the coverage finding.
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.devonenergy.com)
-- [GitHub Organization](https://github.com/devonenergy)
-- [LinkedIn](https://www.linkedin.com/company/devon-energy)
-- [Blog](https://www.devonenergy.com/news)
 - [Support](https://www.devonenergy.com/about-us/contact-us)
-- [Privacy Policy](https://www.devonenergy.com/privacy-policy)
-- [Domain Security](security/devon-energy-domain-security.yml)
-- [LLMs.txt](llms/devon-energy-llms.txt)
+- [Blog](https://www.devonenergy.com/news)
+- [Privacy policy](https://www.devonenergy.com/privacy-policy)
+- [GitHub](https://github.com/devonenergy)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** API Evangelist
+**Kin Score 7.9** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** info@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 2.9** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.2** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/devon-energy/](https://apis.io/providers/devon-energy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Devon Energy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/devon-energy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
